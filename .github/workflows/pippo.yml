@@ -23,7 +23,7 @@ jobs:
         run: | 
           echo "questo è il super_secret ${super_secret}"
           export SURGE_TOKEN=$super_secret
-          surge ./build/ jumbled-motion.surge.sh
+          surge ./build/ https://domineering-balance.surge.sh/
       - run: echo "Fine"
       - name: Test run
         run: |  
